@@ -13,7 +13,7 @@ void main() {
     title: 'Passing Data',
     home: TodosScreen(
       todos: List.generate(
-        20,
+        10,
         (i) => Todo(
           'Todo $i',
           'A description of what needs to be done for Todo $i',
