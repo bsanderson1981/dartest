@@ -34,24 +34,8 @@ class TodosScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Todos'),
       ),
-      
-    /*   ListView.separated(
-     itemCount: 25,
-     separatorBuilder: (BuildContext context, int index) => Divider(height: 1),
-     itemBuilder: (BuildContext context, int index) {
-       return ListTile(
-         title: Text('item $index'),
-       );
-     },
-); */
-
-      
-      
-      
-      
-      
-      
-      
+  
+      //added line break between items .seperated ...
       body: ListView.separated(
         itemCount: todos.length,
          separatorBuilder: (BuildContext context, int index) => Divider(height: 1, thickness: 10,),
